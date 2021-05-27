@@ -1,0 +1,63 @@
+{
+  "name": "cloudWeb",
+  "version": "1.0.0",
+  "description": "cloudWeb",
+  "pravite": true,
+  "scripts": {
+    "start": "webpack-dev-server --open --config config/webpack.dev.js",
+    "build": "webpack --env.production --config config/webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vicentgg/zc_WebSite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vicentgg/zc_WebSite/issues"
+  },
+  "homepage": "https://github.com/vicentgg/zc_WebSite#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-transform-runtime": "^7.11.0",
+    "@babel/preset-env": "^7.7.7",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.4.0",
+    "extract-loader": "^3.1.0",
+    "file-loader": "^5.0.2",
+    "glob": "^7.1.6",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-tags-plugin": "^2.0.17",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "lodash": "^4.17.15",
+    "mini-css-extract-plugin": "^0.9.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "raw-loader": "^4.0.1",
+    "style-loader": "^1.1.2",
+    "terser-webpack-plugin": "^2.3.1",
+    "url-loader": "^3.0.0",
+    "webpack": "^4.41.5",
+    "webpack-bundle-analyzer": "^3.6.1",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1",
+    "webpack-merge": "^4.2.2"
+  },
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions"
+  ],
+  "dependencies": {
+    "@babel/runtime-corejs3": "^7.11.0",
+    "axios": "^0.19.2",
+    "bootstrap": "^3.4.1",
+    "html2canvas": "^1.0.0-rc.7",
+    "universal-cookie": "^4.0.3",
+    "vue": "^2.6.11"
+  }
+}
