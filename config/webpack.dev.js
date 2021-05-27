@@ -9,11 +9,11 @@ module.exports = function (env) {
       hot: true,
       contentBase: '../dist',
       // port: 9000
-      proxy: {
-        '/jeecg-boot/': {
-          target: 'http://115.236.69.27:8010',
-          changeOrigin: true
-        }
+      proxy: { //数据地址
+        // '/jeecg-boot/': {
+        //   target: '', //ip地址
+        //   changeOrigin: true
+        // }
       }
     },
     module: {

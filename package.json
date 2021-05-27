@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vicentgg/zc_WebSite.git"
+    "url": "git+https://github.com/vicentgg/cloudWeb.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vicentgg/zc_WebSite/issues"
+    "url": "https://github.com/vicentgg/cloudWeb/issues"
   },
-  "homepage": "https://github.com/vicentgg/zc_WebSite#readme",
+  "homepage": "https://github.com/vicentgg/cloudWeb#readme",
   "devDependencies": {
     "@babel/core": "^7.7.7",
     "@babel/plugin-transform-runtime": "^7.11.0",
